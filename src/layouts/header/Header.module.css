@@ -1,0 +1,14 @@
+.mainHeader {
+  background: var(--main-color, #613eea);
+  height: var(--header-height, 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+.mainHeader_backButton:hover {
+  transform: translateY(-50%) rotateY(180deg) scale(1.1);
+}

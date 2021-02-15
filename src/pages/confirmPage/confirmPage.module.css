@@ -1,0 +1,44 @@
+.confirmMarkContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.confirmMark {
+  height: 153px;
+  width: 153px;
+  background: rgba(97, 62, 234, 0.1);
+  border-radius: 50%;
+  position: relative;
+}
+
+.confirmMark:after {
+  content: "";
+  position: absolute;
+  height: 100px;
+  width: 129px;
+  background: url("../../assets/images/bigMark.svg") no-repeat center;
+  background-size: contain;
+  top: 3%;
+  left: 19%;
+}
+
+.confirmMarkContainer span:first-of-type {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: var(--main-color, #613eea);
+  text-align: center;
+  margin-top: 30px;
+}
+
+.confirmMarkContainer span:last-of-type {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #757f8c;
+}

@@ -1,0 +1,36 @@
+.quantityPanel_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quantityPanel_container button {
+    height: 14px;
+    width: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #F2F3F5;
+    border: none;
+    cursor: pointer;
+    color: var(--main-color, #613eea);
+    outline: none;
+    transition: .3s filter;
+    will-change: filter;
+}
+
+.quantityPanel_container button:hover {
+    filter: brightness(0.7)
+}
+
+.quantityPanel_value {
+  margin: 0 5px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #d6d9e4;
+  min-width: 14px;
+  text-align: center;
+}

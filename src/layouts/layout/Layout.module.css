@@ -1,0 +1,10 @@
+.mainContainer {
+  width: 375px;
+  height: 90vh;
+  max-height: 90vh;
+  background: #f9fafb;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  
+}

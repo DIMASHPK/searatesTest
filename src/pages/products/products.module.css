@@ -1,0 +1,33 @@
+.products_costContainer {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  line-height: 42px;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+
+.products_container {
+  overflow: auto;
+  padding: 16px;
+  height: 100%;
+}
+
+.products_container::-webkit-scrollbar {
+  width: 15px;
+  background: #fff;
+  cursor: pointer;
+}
+
+/* Handle */
+.products_container::-webkit-scrollbar-thumb {
+  background: var(--main-color, #613eea);
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.products_action {
+  padding: 0 18px;
+  margin: 20px 0;
+}

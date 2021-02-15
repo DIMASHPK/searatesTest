@@ -1,0 +1,113 @@
+.cartHeader_backButton {
+  background: url("../../assets/images/arrowWhite.svg") no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  outline: none;
+  color: var(--main-color, #613eea);
+  padding: 12px 10px;
+  margin: 0;
+  border: 0;
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  transform: translateY(-50%) rotateY(180deg);
+  transition: 0.3s transform;
+  will-change: transform;
+}
+
+.cart_container {
+  padding: 31px 0 20px;
+  background: #f9fafb;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.cart_info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0 16px;
+}
+
+.cart_infoPrice {
+  padding: 10px 20px;
+  background: #f0f1f4;
+  border-radius: 6px;
+  min-width: 151px;
+}
+
+.cart_infoPrice span {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 42px;
+  letter-spacing: 0.5px;
+  display: flex;
+  white-space: nowrap;
+}
+
+.cart_infoContent {
+  margin-left: 17px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #757f8c;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart_additionalContainer {
+  overflow: auto;
+  height: 100%;
+  padding: 0 16px;
+}
+
+.cart_additionalContainer::-webkit-scrollbar {
+  width: 15px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.cart_additionalContainer::-webkit-scrollbar-thumb {
+  background: var(--main-color, #613eea);
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.cart_additionalContainer > div > div {
+  box-shadow: none;
+  background: none;
+  justify-content: start;
+}
+
+.cart_additionalContainer > div > div > div:first-of-type {
+  flex-grow: 1;
+  margin-left: 12px;
+}
+
+.cart_actionPanel {
+  padding: 16px 16px 0;
+}
+
+.cart_actionPanel .endPrice {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.cart_actionPanel .endPrice span:first-of-type {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+
+.cart_actionPanel .endPrice span:nth-of-type(2) {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 42px;
+  letter-spacing: 0.5px;
+  color: #000000;
+}

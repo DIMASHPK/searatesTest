@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/searatesTest/static/css/main.347d5929.chunk.css",
+    "main.js": "/searatesTest/static/js/main.e29d9ef3.chunk.js",
+    "main.js.map": "/searatesTest/static/js/main.e29d9ef3.chunk.js.map",
+    "runtime-main.js": "/searatesTest/static/js/runtime-main.0f21bf77.js",
+    "runtime-main.js.map": "/searatesTest/static/js/runtime-main.0f21bf77.js.map",
+    "static/js/2.a756a4c7.chunk.js": "/searatesTest/static/js/2.a756a4c7.chunk.js",
+    "static/js/2.a756a4c7.chunk.js.map": "/searatesTest/static/js/2.a756a4c7.chunk.js.map",
+    "index.html": "/searatesTest/index.html",
+    "static/css/main.347d5929.chunk.css.map": "/searatesTest/static/css/main.347d5929.chunk.css.map",
+    "static/js/2.a756a4c7.chunk.js.LICENSE.txt": "/searatesTest/static/js/2.a756a4c7.chunk.js.LICENSE.txt",
+    "static/media/productItem.module.css": "/searatesTest/static/media/mark.85b942fb.svg",
+    "static/media/cart.module.css": "/searatesTest/static/media/arrowWhite.c5d541fe.svg",
+    "static/media/confirmPage.module.css": "/searatesTest/static/media/bigMark.011c0fba.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f21bf77.js",
+    "static/js/2.a756a4c7.chunk.js",
+    "static/css/main.347d5929.chunk.css",
+    "static/js/main.e29d9ef3.chunk.js"
+  ]
+}
